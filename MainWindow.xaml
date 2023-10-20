@@ -1,0 +1,23 @@
+﻿<Window x:Class="пр5_головиной.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:пр5_головиной"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="авто в наличии: 1 - ауди, 2 - бмв, 3 - хендай, 4 - мазда, 5 - тойота, 6 - лада" HorizontalAlignment="Left" Margin="193,28,0,0" VerticalAlignment="Top" Width="573" Height="40"/>
+        <Label Content="денег отниму:" HorizontalAlignment="Left" Margin="88,237,0,0" VerticalAlignment="Top" Width="108" Height="55"/>
+        <TextBox x:Name="money" HorizontalAlignment="Left" Margin="206,237,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="262" Height="55" TextChanged="TextBox_TextChanged"/>
+        <Button Content="рассчитать параметры" HorizontalAlignment="Left" Margin="478,237,0,0" VerticalAlignment="Top" Height="55" Width="274" Click="Calc1_Click"/>
+        <Label Content="марка обязательно (цифра)" HorizontalAlignment="Left" Margin="88,78,0,0" VerticalAlignment="Top" Width="179" Height="43"/>
+        <Label Content="кол-во цилиндров" HorizontalAlignment="Left" Margin="278,82,0,0" VerticalAlignment="Top" Width="252" Height="39"/>
+        <Label Content="мощность" HorizontalAlignment="Left" Margin="541,82,0,0" VerticalAlignment="Top" Width="179" Height="39"/>
+        <TextBox x:Name="stamp" HorizontalAlignment="Left" Margin="58,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="209" Height="39" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="cylinders" HorizontalAlignment="Left" Margin="278,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="223" Height="39" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="power" HorizontalAlignment="Left" Margin="511,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="209" Height="39" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Создать базовый класс Саr (машина), характеризуемый торговой маркой (строка), &#xD;&#xA;числом цилиндров, мощностью. Создать необходимые методы и свойства. Создать &#xD;&#xA;перегруженные методы SetParams, для установки параметров автомобиля." HorizontalAlignment="Left" Margin="193,321,0,0" VerticalAlignment="Top" Width="559" Height="68"/>
+
+    </Grid>
+</Window>
